@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+section {
+    width: 100%;
+}
+
+section div .card {
+    margin: 2rem 0 0 0;
+
+    border: 1px solid red;
+    width: 10rem;
+    height: 8.5rem;
+}
