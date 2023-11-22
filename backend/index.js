@@ -39,7 +39,6 @@ const tarefas = [
     }
 ]
 
-
 // =======rotas======== // 
 // API - REST => GET / POST / PUT / DELETE ou bem CRUD => CREATE / READ / UPDATE / DELETE
 
