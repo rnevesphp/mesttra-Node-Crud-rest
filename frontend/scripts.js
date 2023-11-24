@@ -20,11 +20,10 @@ APICall.then((response) => {
         console.log(tarefas);
 
         tarefas.map((tarefa) => {
-
             tarefasHTML.insertAdjacentHTML('beforeend', `<li>
-                    <p>${tarefa.title}</p>
-                    <p>${tarefa.prazo}</p>
-                </li>`
+                <p>${tarefa.title}</p>
+                <p>${tarefa.prazo}</p>
+            </li>`
             )
         })
     })
